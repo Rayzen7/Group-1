@@ -519,7 +519,7 @@ body {
 
 .anggota::after {
     height: 15%; 
-    transform: translateY(2000%); 
+    transform: translateY(2100%); 
 }
 
 /* About Us */
