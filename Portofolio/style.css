@@ -270,10 +270,12 @@ body {
 
 .about .flex-card .about-card .about-text h2 {
     font-size: 40px;
+    text-align: left;
 }
 
 .about .flex-card .about-card .about-text p {
     width: 600px;
+    text-align: left;
 }
 
 /* mirror */
@@ -412,9 +414,9 @@ body {
 }
 
 .logo img {
-    width: 200px; 
+    width: 150px; 
     height: auto;
-    margin-right: 10px; 
+    margin-right: 25px; 
 }
 
 .logo p {
@@ -437,7 +439,7 @@ body {
     display: block;
     cursor: pointer;
     margin-right: 20px;
-    font-size: 1.5rem; 
+    font-size: 1.7rem; 
     color: #fff; 
 }
 
@@ -465,7 +467,7 @@ body {
 
 /* judul */
 .judul .text-judul h6 {
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .judul .text-judul h3 {
@@ -517,12 +519,12 @@ body {
 
 .anggota::after {
     height: 15%; 
-    transform: translateY(1850%); 
+    transform: translateY(2000%); 
 }
 
 /* About Us */
 .about .about-us h1 {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .about .flex-card .about-card,
 .about .flex-card .about-card1 {
@@ -558,6 +560,10 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 10px; 
+}
+
+.about .flex-card .about-card .about-text p, .about .flex-card .about-card .about-text h2 {
+  transform: translateX(-5%);
 }
 
 }
