@@ -370,26 +370,78 @@ body {
 @media only screen and (max-width: 600px) {
 
 /* navbar */
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #040018;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    height: 90px;
+    color: #fff;
+    position: fixed;
+    z-index: 1000;
+    transition: background-color 0.5s ease, opacity 0.6s ease;
+}
+
+.navbar-color {
+    background-color: #0f005a;
+    transition: ease-in-out 0.5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; 
+}
+
+.logo p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.logo p span {
+    color: #fff;
+}
+
+.logo img {
+    width: 200px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.logo p {
+    margin-bottom: 10px;
+}
+
 .navbar ul {
     position: absolute;
     top: 100%;
-    right: -100%; 
+    right: -100%;
     background-color: #040018;
     width: 15rem;
     height: 100vh;
     transition: 0.8s;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar .list {
     display: block;
     cursor: pointer;
     margin-right: 20px;
+    font-size: 1.5rem; 
+    color: #fff; 
 }
 
 .navbar.active ul {
-    right: 0; 
+    right: 0;
 }
 
 .navbar ul li {
@@ -407,7 +459,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: var(--hover-color);
+    color: #eec71a;
 }
 
 /* judul */
@@ -425,7 +477,7 @@ body {
 
 /* Biodata */
 .anggota {
-    height: 2300px;
+    height: 2000px;
 }
 
 .anggota .awal h1 {
@@ -464,7 +516,7 @@ body {
 
 .anggota::after {
     height: 15%; 
-    transform: translateY(2615%); 
+    transform: translateY(1850%); 
 }
 
 /* About Us */
