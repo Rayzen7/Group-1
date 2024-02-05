@@ -360,13 +360,19 @@ body {
     margin-top: 10px;
 }
 
+.footer .icon a i {
+    font-size: 30px;
+    color: #000;
+}
+
 .footer p {
     font-size: 10px;
     font-weight: 600;
 }
 
-.footer .icon a img:hover {
-    filter: invert(1);
+.footer .icon a i:hover {
+    font-size: 30px;
+    color: #ffff;
 }
 
 @media only screen and (max-width: 600px) {
